@@ -8,3 +8,4 @@ latex:
 
 site:
 	pandoc -s --toc -c pandoc.css -A footer.html MANUAL.txt -o index.html
+	
